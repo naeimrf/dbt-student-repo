@@ -24,7 +24,7 @@ airbnb:
       threads: 4
       warehouse: COMPUTE_WH
 
-    pdbt rod:
+    prod:
       type: snowflake
       account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
       user: "{{ env_var('DBT_USER') }}"
