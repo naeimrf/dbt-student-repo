@@ -33,3 +33,4 @@ set-env.sh
 set-env.ps1
 /airbnb/target*/
 .env
+profiles.yml
