@@ -1,4 +1,4 @@
-- dbt --version         check the version and the adaptor for the database oyu want to connect!
+- dbt --version         check the version and the adaptor for the database you want to connect!
 - dbt debug             verfiy your connection to your data warehouse
 - dbt clean             removes your target folder (the internal state of dbt, manifest.json) as well as dbt_packages dependencies
 - dbt ls                it prints all models and files dbt can see and work with
@@ -13,3 +13,7 @@
 - dbt run --empty                       practically executes dbt run with LIMIT 0 on all models
                                         this is a fast technic to run models by parsing SQL and yaml files without data
 - dbt run --sample <time expression>    samples data based on a time range
+
+-- While you are in you venv environment and under dbt-core install:
+    --  pip install dbt-autofix
+    and then run: dbt-autofix to upgrade your project and make it compatible with dbt-fusion

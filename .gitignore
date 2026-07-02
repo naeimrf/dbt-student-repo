@@ -1,4 +1,5 @@
 credentials/
+credentials_for_dbt_core/
 .venv/
 
 airbnb/package-lock.yml
